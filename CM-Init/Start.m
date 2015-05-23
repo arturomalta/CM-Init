@@ -24,4 +24,8 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)btnChangePressed:(id)sender {
+    self.lblWelcome.text    = @"Cómputo Móvil";
+    _lblWelcome.text        = @"Cómputo Móvil";
+}
 @end

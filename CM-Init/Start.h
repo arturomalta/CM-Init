@@ -10,6 +10,16 @@
 
 @interface Start : UIViewController
 
+//Buttons
+@property (strong, nonatomic) IBOutlet UIButton *btnChange;
+
+//Labels
+@property (strong, nonatomic) IBOutlet UILabel *lblWelcome;
+
+
+//Actions
+- (IBAction)btnChangePressed:(id)sender;
+
 
 @end
 
